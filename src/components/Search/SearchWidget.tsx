@@ -24,6 +24,7 @@ const SearchWidget: FC<SearchWidgetProps> = (props: SearchWidgetProps) => {
                     url: "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
                     placeholder: 'Search For a Location',
                     countryCode: 'US',
+                    singleLineFieldName: 'singleLine',
                     autoNavigate: true
                 }
             )
@@ -34,10 +35,8 @@ const SearchWidget: FC<SearchWidgetProps> = (props: SearchWidgetProps) => {
         // if we haven't assigned the container for the component, this must be the first time
         // loading it. We should add the on search-complete event now while we're at it...
         if (widgetElementRef.current && !searchWidget.current.container) {
-            searchWidget.current.container = widgetElementRef.current
-            // props.view.ui.add('zoom', 'top-right');
+            searchWidget.current.container = widgetElementRef.current;
             searchWidget.current.on('search-complete', (event: any) => {
-                // console.log('event');
                 if (
                     event.results[0]?.results[0].feature?.geometry?.longitude &&
                     event.results[0]?.results[0].feature?.geometry?.latitude
