@@ -1,4 +1,4 @@
-import React, { FC, useEffect, useState, useRef, Fragment } from 'react';
+import React, { FC, useEffect, useState, useRef } from 'react';
 import styles from './DroughtContext.module.css';
 import config from './DroughtContextConfig.json';
 
@@ -43,7 +43,11 @@ const DroughtContext: FC<DroughtContextProps> = (props: DroughtContextProps) => 
     return (
         <div hidden={!showContext}>
             <div className={styles.content}>
-                <span className={styles.primaryText} style={{ textShadow: `3px 3px 10px ${primaryTextGlowColor.current}, -3px -3px 10px ${primaryTextGlowColor.current}` }}>{primaryText.current}</span>
+                <span className={styles.primaryText} style={{ textShadow: `
+                     7px 0px  15px ${primaryTextGlowColor.current},
+                    -7px 0px  15px ${primaryTextGlowColor.current},
+                     0px  7px 15px ${primaryTextGlowColor.current},
+                     0px -7px 15px ${primaryTextGlowColor.current}` }}>{primaryText.current}</span>
                 {listItems}
             </div>
             <div className={styles.backdrop}></div>

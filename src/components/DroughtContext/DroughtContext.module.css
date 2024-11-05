@@ -7,8 +7,8 @@
     position: absolute;
     width: 400px;
     height: 150px;
-    bottom: 0;
-    right: 0;
+    bottom: 25px;
+    right: 25px;
 }
 
 .backdrop {
