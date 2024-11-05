@@ -735,9 +735,12 @@ const Shell: FC<ShellProps> = (props: ShellProps) => {
                     </div>
                 </>
             }
-            <DroughtContext
-                activeArc={activeArc}>
-            </DroughtContext>
+            <div hidden={!showMapWidgets}>
+                <DroughtContext
+                    activeArc={activeArc}>
+                </DroughtContext>
+            </div>
+
             <div className={styles.fullMap}>
                 <Map
                     appConfig={appConfig.current}
