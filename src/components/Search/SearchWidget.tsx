@@ -49,7 +49,6 @@ const SearchWidget: FC<SearchWidgetProps> = (props: SearchWidgetProps) => {
                 }
             })
         }
-
     }, [])
 
     useEffect(() => {

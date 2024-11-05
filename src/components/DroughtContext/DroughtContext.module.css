@@ -1,0 +1,32 @@
+.content {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    bottom: 0;
+    right: 0;
+}
+
+.backdrop {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: -300px;
+    width: 1000px;
+    height: 400px;
+    background: rgb(0, 0, 0);
+    background: -moz-radial-gradient(ellipse at bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 60%);
+    background: -webkit-radial-gradient(ellipse at bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 60%);
+    background: radial-gradient(ellipse at bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+}
+
+.primaryText {
+    font-weight: 200;
+    font-size: 28px;
+    color: white;
+}

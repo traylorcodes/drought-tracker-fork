@@ -6,19 +6,21 @@ import GroupLayer from "@arcgis/core/layers/GroupLayer.js";
 import styles from './Shell.module.css';
 import Map from '../Map/Map';
 import BarChart from '../BarChart/BarChart';
-import LeftPanel from '../LeftPanel/LeftPanel';
 import Corner from '../Corner/Corner';
-import config from '../../AppConfig.json';
+import DroughtContext from '../DroughtContext/DroughtContext';
+import InfoModal from '../InfoModal/InfoModal';
+import LeftPanel from '../LeftPanel/LeftPanel';
 import TabSelector from '../TabSelector/TabSelector';
+import config from '../../AppConfig.json';
 import sharedTypes from '../../assets/sharedTypes';
 import * as queryFunctions from 'query-functions-ts';
-import InfoModal from '../InfoModal/InfoModal';
 import GraphicsLayer from '@arcgis/core/layers/GraphicsLayer';
 import PictureMarkerSymbol from '@arcgis/core/symbols/PictureMarkerSymbol';
 import SpatialReference from '@arcgis/core/geometry/SpatialReference';
 import Graphic from '@arcgis/core/Graphic';
 import Point from '@arcgis/core/geometry/Point';
 import "@esri/calcite-components/dist/components/calcite-loader";
+import { active } from 'd3';
 
 /**
  * This component is used as the host of the rest of the components.
@@ -733,6 +735,9 @@ const Shell: FC<ShellProps> = (props: ShellProps) => {
                     </div>
                 </>
             }
+            <DroughtContext
+                activeArc={activeArc}>
+            </DroughtContext>
             <div className={styles.fullMap}>
                 <Map
                     appConfig={appConfig.current}

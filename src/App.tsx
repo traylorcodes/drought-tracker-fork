@@ -7,9 +7,9 @@ import appConfig from './AppConfig.json';
 function App() {
 
     /*
+    *
     * Esri Living Atlas Drought Aware Application 
     * 
-    * Managed by Ken Baloun
     * Designed by John Nelson
     * Data supported by Gonzalo Davalos-Espinoza
     * Developed by Nathan Traylor

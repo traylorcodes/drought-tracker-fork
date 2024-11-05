@@ -1,0 +1,51 @@
+{
+    "levelConfig": [
+        {
+            "key": "d0",
+            "color": "rgba(149, 134, 74, 1)",
+            "primaryText": "Abnormally Dry (D0)",
+            "listItems": [
+"Going into drought there is short-term dryness slowing planting, growth of crops or pastures.",
+"Coming out of drought there are some lingering water deficits; pastures or crops not fully recovered."
+            ]
+        },
+        {
+            "key": "d1",
+            "color": "rgba(254, 162, 90, 1)",
+            "primaryText": "Moderate Drought (D1)",
+            "listItems": [
+                "Some damage to crops and pastures.",
+                "Streams, reservoirs, or wells low, some water shortages developing or imminent.",
+                "Voluntary water-use restrictions requested."
+            ]
+        },
+        {
+            "key": "d2",
+            "color": "rgba(224, 82, 44, 1)",
+            "primaryText": "Severe Drought (D2)",
+            "listItems": [
+                "Crop or pasture losses likely.",
+                "Water shortages are common.",
+                "Water restrictions imposed."
+            ]
+        },
+        {
+            "key": "d3",
+            "color": "rgba(152, 41, 67, 1)",
+            "primaryText": "Extreme Drought (D3)",
+            "listItems": [
+                "Major crop/pasture losses.",
+                "Widespread water shortages or restrictions."
+            ]
+        },
+        {
+            "key": "d4",
+            "color": "rgba(87, 10, 60, 1)",
+            "primaryText": "Exceptional Drought (D4)",
+            "listItems": [
+                "Exceptional and widespread crop/pasture losses.",
+                "Shortages of water in reservoirs, streams, and wells create water emergencies."
+            ]
+        }
+    ]
+}
