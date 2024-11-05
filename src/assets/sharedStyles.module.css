@@ -85,6 +85,11 @@
 
 .abnormalDroughtColor {
     background-color: var(--abnormalColor);
+    background: repeating-linear-gradient(-45deg,
+    rgba(149, 134, 74, 1),
+    rgba(149, 134, 74, 1) 3px,
+    rgba(149, 134, 74, .5),
+    rgba(149, 134, 74, .5) 4px)
 }
 
 .anyDroughtDroughtColor {

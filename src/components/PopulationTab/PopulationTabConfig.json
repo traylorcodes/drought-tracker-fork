@@ -185,39 +185,6 @@
                 },
                 {
                     "height": "s",
-                    "rowKey": "d0",
-                    "cells": [
-                        {
-                            "rowKey": "d0",
-                            "columnKey": "droughtLevelColumnKey",
-                            "value": "Abn. Dry",
-                            "fieldNameAccessor": "",
-                            "cellStyleAccessor": "abnormalDroughtColor"
-                        },
-                        {
-                            "rowKey": "d0",
-                            "columnKey": "populationColumnKey",
-                            "value": "",
-                            "fieldNameAccessor": "P0010001_D0"
-                        },
-                        {
-                            "rowKey": "d0",
-                            "columnKey": "householdsColumnKey",
-                            "value": "",
-                            "fieldNameAccessor": "H0010001_D0"
-                        },
-                        {
-                            "rowKey": "d0",
-                            "columnKey": "singleMultiFamilyColumnKey",
-                            "value": "",
-                            "fieldNameAccessor": "",
-                            "multiFamilyField": "Hous_multi_pct_D0",
-                            "singleFamilyField": "Hous_single_pct_D0"
-                        }
-                    ]
-                },
-                {
-                    "height": "s",
                     "rowKey": "dx",
                     "cells": [
                         {
@@ -246,6 +213,39 @@
                             "fieldNameAccessor": "",
                             "multiFamilyField": "Hous_multi_pct_Dx",
                             "singleFamilyField": "Hous_single_pct_Dx"
+                        }
+                    ]
+                },
+                {
+                    "height": "s",
+                    "rowKey": "d0",
+                    "cells": [
+                        {
+                            "rowKey": "d0",
+                            "columnKey": "droughtLevelColumnKey",
+                            "value": "Abn. Dry",
+                            "fieldNameAccessor": "",
+                            "cellStyleAccessor": "abnormalDroughtColor"
+                        },
+                        {
+                            "rowKey": "d0",
+                            "columnKey": "populationColumnKey",
+                            "value": "",
+                            "fieldNameAccessor": "P0010001_D0"
+                        },
+                        {
+                            "rowKey": "d0",
+                            "columnKey": "householdsColumnKey",
+                            "value": "",
+                            "fieldNameAccessor": "H0010001_D0"
+                        },
+                        {
+                            "rowKey": "d0",
+                            "columnKey": "singleMultiFamilyColumnKey",
+                            "value": "",
+                            "fieldNameAccessor": "",
+                            "multiFamilyField": "Hous_multi_pct_D0",
+                            "singleFamilyField": "Hous_single_pct_D0"
                         }
                     ]
                 }
