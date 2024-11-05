@@ -203,7 +203,8 @@ const InfoModal: FC<InfoModalProps> = (props?: InfoModalProps) => {
                         <span><a href='https://downloads2.esri.com/arcgisonline/docs/tou_summary.pdf' target='blank'>{`View Summary`}</a> | <a href='https://www.esri.com/en-us/legal/terms/full-master-agreement' target='blank'>{`View Terms of Use`}</a></span>
                         <h1>{`Contact`}</h1>
                         <span>{`For questions or comments about the Drought Aware app, please contact us at `}<a href='mailto:environment@esri.com' target='blank'>environment@esri.com</a></span>
-
+                        <br />
+                        <span>{`The source code for the app can be found `}<a href = "https://github.com/Esri/drought-tracker" target = "blank">{'here'}</a>{'.'}</span>
                     </div>
 
 
