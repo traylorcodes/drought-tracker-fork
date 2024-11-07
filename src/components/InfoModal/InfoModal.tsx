@@ -204,7 +204,7 @@ const InfoModal: FC<InfoModalProps> = (props?: InfoModalProps) => {
                         <h1>{`Contact`}</h1>
                         <span>{`For questions or comments about the Drought Aware app, please contact us at `}<a href='mailto:environment@esri.com' target='blank'>environment@esri.com</a></span>
                         <br />
-                        <span>{`The source code for the app can be found `}<a href = "https://github.com/Esri/drought-tracker" target = "blank">{'here'}</a>{'.'}</span>
+                        <span>{`The source code for the app can be found on `}<a href = "https://github.com/Esri/drought-tracker" target = "blank">{'Github'}</a>{'.'}</span>
                     </div>
 
 
