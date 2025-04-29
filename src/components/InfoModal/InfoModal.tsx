@@ -145,7 +145,7 @@ const InfoModal: FC<InfoModalProps> = (props?: InfoModalProps) => {
                         <ul>
                             <li>
                                 <a className={styles.link} href='https://livingatlas.arcgis.com/en/browse/?q=ACS#q=ACS&d=2' target='blank'>
-                                    {`American Community Service (ACS)`}
+                                    {`American Community Survey (ACS)`}
                                 </a>
                             </li>
                         </ul>
